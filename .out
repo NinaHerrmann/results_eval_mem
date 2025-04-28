@@ -1,0 +1,243 @@
+Random state 0: 3626764237, Dataset: magic, Type: binary, Iterations: 5, Train: True
+Fitting 2 folds for each of 5 candidates, totalling 10 fits
+Training until validation scores don't improve for 20 rounds
+Early stopping, best iteration is:
+[8]	valid_0's binary_logloss: 0.311819
+[CV 1/2] END lambda_l1=0.5564504783955433, lambda_l2=0.7855155916648425, learning_rate=0.472115527586247, n_estimators=4602, stopping_rounds=20; accuracy: (train=0.930, test=0.865) memory: (train=48656.000, test=48656.000) memory_efficiency: (train=0.000, test=0.000) total time=  27.4s
+Training until validation scores don't improve for 20 rounds
+Early stopping, best iteration is:
+[11]	valid_0's binary_logloss: 0.337929
+[CV 2/2] END lambda_l1=0.5564504783955433, lambda_l2=0.7855155916648425, learning_rate=0.472115527586247, n_estimators=4602, stopping_rounds=20; accuracy: (train=0.934, test=0.868) memory: (train=54004.000, test=54004.000) memory_efficiency: (train=0.000, test=0.000) total time=  24.6s
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[5]	valid_0's binary_logloss: 0.335569
+[CV 1/2] END lambda_l1=0.6526903003111413, lambda_l2=0.5353135851864139, learning_rate=0.6898147043714198, n_estimators=5068, stopping_rounds=100; accuracy: (train=0.927, test=0.860) memory: (train=35514.000, test=35514.000) memory_efficiency: (train=0.000, test=0.000) total time=  22.5s
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[6]	valid_0's binary_logloss: 0.337528
+[CV 2/2] END lambda_l1=0.6526903003111413, lambda_l2=0.5353135851864139, learning_rate=0.6898147043714198, n_estimators=5068, stopping_rounds=100; accuracy: (train=0.933, test=0.862) memory: (train=39562.000, test=39562.000) memory_efficiency: (train=0.000, test=0.000) total time=  22.8s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[26]	valid_0's binary_logloss: 0.303434
+Overflow detected by 11342 bytes
+Overflow detected by 13308 bytes
+[CV 1/2] END lambda_l1=0.425195468802928, lambda_l2=0.19863511825401267, learning_rate=0.19551229249135554, n_estimators=1192, stopping_rounds=10; accuracy: (train=0.950, test=0.873) memory: (train=142414.000, test=142414.000) memory_efficiency: (train=0.000, test=0.000) total time=  36.3s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[43]	valid_0's binary_logloss: 0.314455
+Overflow detected by 75864 bytes
+Overflow detected by 77830 bytes
+[CV 2/2] END lambda_l1=0.425195468802928, lambda_l2=0.19863511825401267, learning_rate=0.19551229249135554, n_estimators=1192, stopping_rounds=10; accuracy: (train=0.967, test=0.870) memory: (train=206936.000, test=206936.000) memory_efficiency: (train=0.000, test=0.000) total time=  47.6s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[12]	valid_0's binary_logloss: 0.307967
+[CV 1/2] END lambda_l1=0.6189241218200033, lambda_l2=0.2135717001423205, learning_rate=0.32812876810455316, n_estimators=4206, stopping_rounds=10; accuracy: (train=0.934, test=0.868) memory: (train=64874.000, test=64874.000) memory_efficiency: (train=0.000, test=0.000) total time=  25.7s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[22]	valid_0's binary_logloss: 0.3246
+[CV 2/2] END lambda_l1=0.6189241218200033, lambda_l2=0.2135717001423205, learning_rate=0.32812876810455316, n_estimators=4206, stopping_rounds=10; accuracy: (train=0.958, test=0.869) memory: (train=115646.000, test=115646.000) memory_efficiency: (train=0.000, test=0.000) total time=  34.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, stopping_rounds=10; accuracy: (train=0.918, test=0.859) memory: (train=29360.000, test=29360.000) memory_efficiency: (train=0.000, test=0.000) total time=  23.8s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, stopping_rounds=10; accuracy: (train=0.918, test=0.857) memory: (train=26980.000, test=26980.000) memory_efficiency: (train=0.000, test=0.000) total time=  22.4s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[6]	valid_0's binary_logloss: 0.328258
+Base score: 0.8582778361958172 
+ Base size: 28170.0
+Fitting 2 folds for each of 5 candidates, totalling 10 fits
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[1]	valid_0's binary_logloss: 0.511237
+[CV 1/2] END cegb_penalty_split=0.11245946469916436, enable_cegb=True, enable_merging=False, enable_prepruning=True, enable_pruning=False, enable_quantization=False, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=7, min_data_in_leaf=53, min_gain_to_split=0.18884976812696752, n_estimators=4313, num_clusters=3, num_leaves=158, pruning_percentile=0.19863511825401267, quantization_bits=8, quantization_diff=leafs, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.780, test=0.776) accuracy_improvement: (train=-9.161, test=-9.543) memory: (train=4636.000, test=4636.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-83.543, test=-83.543) thresholds: (train=2.000, test=2.000) trees: (train=1.000, test=1.000) total time=  21.0s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[1]	valid_0's binary_logloss: 0.513025
+[CV 2/2] END cegb_penalty_split=0.11245946469916436, enable_cegb=True, enable_merging=False, enable_prepruning=True, enable_pruning=False, enable_quantization=False, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=7, min_data_in_leaf=53, min_gain_to_split=0.18884976812696752, n_estimators=4313, num_clusters=3, num_leaves=158, pruning_percentile=0.19863511825401267, quantization_bits=8, quantization_diff=leafs, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.774, test=0.774) accuracy_improvement: (train=-9.774, test=-9.856) memory: (train=4636.000, test=4636.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-83.543, test=-83.543) thresholds: (train=2.000, test=2.000) trees: (train=1.000, test=1.000) total time=  21.6s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END cegb_penalty_split=0.08525400045643203, enable_cegb=False, enable_merging=False, enable_prepruning=False, enable_pruning=False, enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=4, min_data_in_leaf=37, min_gain_to_split=0.019180260219281046, n_estimators=4313, num_clusters=3, num_leaves=567, pruning_percentile=0.7112312146832124, quantization_bits=16, quantization_diff=thresholds, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.917, test=0.859) accuracy_improvement: (train=6.874, test=0.068) memory: (train=29600.000, test=29600.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=5.076, test=5.076) thresholds: (train=430.000, test=430.000) trees: (train=4.000, test=4.000) total time=  24.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END cegb_penalty_split=0.08525400045643203, enable_cegb=False, enable_merging=False, enable_prepruning=False, enable_pruning=False, enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=4, min_data_in_leaf=37, min_gain_to_split=0.019180260219281046, n_estimators=4313, num_clusters=3, num_leaves=567, pruning_percentile=0.7112312146832124, quantization_bits=16, quantization_diff=thresholds, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.917, test=0.857) accuracy_improvement: (train=6.888, test=-0.109) memory: (train=27234.000, test=27234.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-3.323, test=-3.323) thresholds: (train=418.000, test=418.000) trees: (train=4.000, test=4.000) total time=  24.8s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END cegb_penalty_split=0.06606768262519448, enable_cegb=False, enable_merging=True, enable_prepruning=False, enable_pruning=True, enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=8, min_data_in_leaf=34, min_gain_to_split=0.16131846200288508, n_estimators=4313, num_clusters=3, num_leaves=81, pruning_percentile=0.5868555859740353, quantization_bits=16, quantization_diff=leafs, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.479, test=0.479) accuracy_improvement: (train=-44.242, test=-44.228) memory: (train=7976.000, test=7976.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-71.686, test=-71.686) thresholds: (train=3.000, test=3.000) trees: (train=2.000, test=2.000) total time=  22.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END cegb_penalty_split=0.06606768262519448, enable_cegb=False, enable_merging=True, enable_prepruning=False, enable_pruning=True, enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=8, min_data_in_leaf=34, min_gain_to_split=0.16131846200288508, n_estimators=4313, num_clusters=3, num_leaves=81, pruning_percentile=0.5868555859740353, quantization_bits=16, quantization_diff=leafs, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.559, test=0.550) accuracy_improvement: (train=-34.890, test=-35.870) memory: (train=8108.000, test=8108.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-71.218, test=-71.218) thresholds: (train=3.000, test=3.000) trees: (train=2.000, test=2.000) total time=  21.4s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[1]	valid_0's binary_logloss: 0.511237
+[CV 1/2] END cegb_penalty_split=0.14257655590963275, enable_cegb=True, enable_merging=True, enable_prepruning=True, enable_pruning=True, enable_quantization=False, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=9, min_data_in_leaf=43, min_gain_to_split=0.18853825576702088, n_estimators=4313, num_clusters=22, num_leaves=640, pruning_percentile=0.1854008460315828, quantization_bits=16, quantization_diff=leafs, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.780, test=0.776) accuracy_improvement: (train=-9.161, test=-9.543) memory: (train=4636.000, test=4636.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-83.543, test=-83.543) thresholds: (train=2.000, test=2.000) trees: (train=1.000, test=1.000) total time=  20.4s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[1]	valid_0's binary_logloss: 0.513025
+[CV 2/2] END cegb_penalty_split=0.14257655590963275, enable_cegb=True, enable_merging=True, enable_prepruning=True, enable_pruning=True, enable_quantization=False, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=9, min_data_in_leaf=43, min_gain_to_split=0.18853825576702088, n_estimators=4313, num_clusters=22, num_leaves=640, pruning_percentile=0.1854008460315828, quantization_bits=16, quantization_diff=leafs, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.774, test=0.774) accuracy_improvement: (train=-9.774, test=-9.856) memory: (train=4636.000, test=4636.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-83.543, test=-83.543) thresholds: (train=2.000, test=2.000) trees: (train=1.000, test=1.000) total time=  21.6s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[91]	valid_0's binary_logloss: 0.302366
+[CV 1/2] END cegb_penalty_split=0.12955468671887768, enable_cegb=False, enable_merging=True, enable_prepruning=True, enable_pruning=True, enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=2, min_data_in_leaf=49, min_gain_to_split=0.08882628428560677, n_estimators=4313, num_clusters=3, num_leaves=338, pruning_percentile=0.3909817030918703, quantization_bits=16, quantization_diff=thresholds, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.437, test=0.437) accuracy_improvement: (train=-49.129, test=-49.074) memory: (train=10412.000, test=10412.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-63.039, test=-63.039) thresholds: (train=3.000, test=3.000) trees: (train=55.000, test=55.000) total time=  23.8s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[63]	valid_0's binary_logloss: 0.330882
+[CV 2/2] END cegb_penalty_split=0.12955468671887768, enable_cegb=False, enable_merging=True, enable_prepruning=True, enable_pruning=True, enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, max_depth=2, min_data_in_leaf=49, min_gain_to_split=0.08882628428560677, n_estimators=4313, num_clusters=3, num_leaves=338, pruning_percentile=0.3909817030918703, quantization_bits=16, quantization_diff=thresholds, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.539, test=0.534) accuracy_improvement: (train=-37.190, test=-37.816) memory: (train=8658.000, test=8658.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-69.265, test=-69.265) thresholds: (train=3.000, test=3.000) trees: (train=38.000, test=38.000) total time=  23.9s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[1]	valid_0's binary_logloss: 0.517996
+Fitting 2 folds for each of 12 candidates, totalling 24 fits
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=leafs, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.649, test=0.645) accuracy_improvement: (train=-24.353, test=-24.884) memory: (train=23080.000, test=23080.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-18.069, test=-18.069) thresholds: (train=436.000, test=436.000) trees: (train=4.000, test=4.000) total time=  22.7s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=leafs, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.645, test=0.649) accuracy_improvement: (train=-24.884, test=-24.353) memory: (train=21388.000, test=21388.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-24.075, test=-24.075) thresholds: (train=420.000, test=420.000) trees: (train=4.000, test=4.000) total time=  23.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=leafs, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.918, test=0.859) accuracy_improvement: (train=6.915, test=0.123) memory: (train=23002.000, test=23002.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-18.346, test=-18.346) thresholds: (train=436.000, test=436.000) trees: (train=4.000, test=4.000) total time=  22.4s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=leafs, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.918, test=0.857) accuracy_improvement: (train=6.915, test=-0.109) memory: (train=21366.000, test=21366.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-24.153, test=-24.153) thresholds: (train=420.000, test=420.000) trees: (train=4.000, test=4.000) total time=  23.0s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=thresholds, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.888, test=0.852) accuracy_improvement: (train=3.417, test=-0.708) memory: (train=29492.000, test=29492.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=4.693, test=4.693) thresholds: (train=105.000, test=105.000) trees: (train=4.000, test=4.000) total time=  24.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=thresholds, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.877, test=0.841) accuracy_improvement: (train=2.192, test=-1.974) memory: (train=26972.000, test=26972.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-4.253, test=-4.253) thresholds: (train=108.000, test=108.000) trees: (train=4.000, test=4.000) total time=  23.3s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=thresholds, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.351, test=0.355) accuracy_improvement: (train=-59.134, test=-58.603) memory: (train=29478.000, test=29478.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=4.643, test=4.643) thresholds: (train=105.000, test=105.000) trees: (train=4.000, test=4.000) total time=  24.8s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=thresholds, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.355, test=0.351) accuracy_improvement: (train=-58.603, test=-59.134) memory: (train=26958.000, test=26958.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-4.302, test=-4.302) thresholds: (train=108.000, test=108.000) trees: (train=4.000, test=4.000) total time=  23.6s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=both, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.649, test=0.645) accuracy_improvement: (train=-24.353, test=-24.884) memory: (train=23218.000, test=23218.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-17.579, test=-17.579) thresholds: (train=105.000, test=105.000) trees: (train=4.000, test=4.000) total time=  24.1s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=both, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.645, test=0.649) accuracy_improvement: (train=-24.884, test=-24.353) memory: (train=21402.000, test=21402.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-24.026, test=-24.026) thresholds: (train=108.000, test=108.000) trees: (train=4.000, test=4.000) total time=  24.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=both, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.889, test=0.853) accuracy_improvement: (train=3.607, test=-0.640) memory: (train=23176.000, test=23176.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-17.728, test=-17.728) thresholds: (train=103.000, test=103.000) trees: (train=4.000, test=4.000) total time=  25.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=8, quantization_diff=both, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.870, test=0.834) accuracy_improvement: (train=1.389, test=-2.791) memory: (train=21458.000, test=21458.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-23.827, test=-23.827) thresholds: (train=107.000, test=107.000) trees: (train=4.000, test=4.000) total time=  24.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=leafs, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.649, test=0.645) accuracy_improvement: (train=-24.353, test=-24.884) memory: (train=25970.000, test=25970.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-7.810, test=-7.810) thresholds: (train=436.000, test=436.000) trees: (train=4.000, test=4.000) total time=  22.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=leafs, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.645, test=0.649) accuracy_improvement: (train=-24.884, test=-24.353) memory: (train=23932.000, test=23932.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-15.044, test=-15.044) thresholds: (train=420.000, test=420.000) trees: (train=4.000, test=4.000) total time=  21.4s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=leafs, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.918, test=0.859) accuracy_improvement: (train=6.902, test=0.109) memory: (train=25890.000, test=25890.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-8.094, test=-8.094) thresholds: (train=436.000, test=436.000) trees: (train=4.000, test=4.000) total time=  22.6s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=leafs, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.918, test=0.857) accuracy_improvement: (train=6.902, test=-0.109) memory: (train=23898.000, test=23898.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-15.165, test=-15.165) thresholds: (train=420.000, test=420.000) trees: (train=4.000, test=4.000) total time=  22.5s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=thresholds, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.917, test=0.859) accuracy_improvement: (train=6.874, test=0.068) memory: (train=29600.000, test=29600.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=5.076, test=5.076) thresholds: (train=430.000, test=430.000) trees: (train=4.000, test=4.000) total time=  23.7s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=thresholds, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.917, test=0.857) accuracy_improvement: (train=6.888, test=-0.109) memory: (train=27234.000, test=27234.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-3.323, test=-3.323) thresholds: (train=418.000, test=418.000) trees: (train=4.000, test=4.000) total time=  22.9s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=thresholds, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.351, test=0.355) accuracy_improvement: (train=-59.134, test=-58.603) memory: (train=29586.000, test=29586.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=5.027, test=5.027) thresholds: (train=430.000, test=430.000) trees: (train=4.000, test=4.000) total time=  23.5s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=thresholds, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.355, test=0.351) accuracy_improvement: (train=-58.603, test=-59.134) memory: (train=27220.000, test=27220.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-3.372, test=-3.372) thresholds: (train=418.000, test=418.000) trees: (train=4.000, test=4.000) total time=  23.0s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=both, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.649, test=0.645) accuracy_improvement: (train=-24.353, test=-24.884) memory: (train=26192.000, test=26192.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-7.022, test=-7.022) thresholds: (train=430.000, test=430.000) trees: (train=4.000, test=4.000) total time=  23.0s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=both, quantization_type=affine, stopping_rounds=10; accuracy: (train=0.645, test=0.649) accuracy_improvement: (train=-24.884, test=-24.353) memory: (train=24152.000, test=24152.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-14.263, test=-14.263) thresholds: (train=418.000, test=418.000) trees: (train=4.000, test=4.000) total time=  23.2s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.329947
+[CV 1/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=both, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.917, test=0.859) accuracy_improvement: (train=6.834, test=0.068) memory: (train=26096.000, test=26096.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-7.362, test=-7.362) thresholds: (train=430.000, test=430.000) trees: (train=4.000, test=4.000) total time=  23.4s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.341002
+[CV 2/2] END enable_quantization=True, lambda_l1=0.046721040877124184, lambda_l2=0.8086339305297684, learning_rate=0.7112312146832124, n_estimators=4313, quantization_bits=16, quantization_diff=both, quantization_type=scale, stopping_rounds=10; accuracy: (train=0.917, test=0.857) accuracy_improvement: (train=6.847, test=-0.109) memory: (train=24126.000, test=24126.000) memory_efficiency: (train=0.000, test=0.000) memory_improvement: (train=-14.356, test=-14.356) thresholds: (train=420.000, test=420.000) trees: (train=4.000, test=4.000) total time=  23.1s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[6]	valid_0's binary_logloss: 0.328258
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[1]	valid_0's binary_logloss: 0.517996
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[1]	valid_0's binary_logloss: 0.517996
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[6]	valid_0's binary_logloss: 0.328258
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[6]	valid_0's binary_logloss: 0.328258
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[60]	valid_0's binary_logloss: 0.313708
+Random state 1: 3280387012, Dataset: magic, Type: binary, Iterations: 5, Train: True
+Fitting 2 folds for each of 5 candidates, totalling 10 fits
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[146]	valid_0's binary_logloss: 0.320885
+Overflow detected by 532324 bytes
+Overflow detected by 534290 bytes
+[CV 1/2] END lambda_l1=0.33804397031723166, lambda_l2=0.4706053297801944, learning_rate=0.04585353445682156, n_estimators=1674, stopping_rounds=100; accuracy: (train=0.957, test=0.868) memory: (train=663396.000, test=663396.000) memory_efficiency: (train=0.000, test=0.000) total time= 2.3min
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[114]	valid_0's binary_logloss: 0.308549
+Overflow detected by 350666 bytes
+Overflow detected by 352632 bytes
+[CV 2/2] END lambda_l1=0.33804397031723166, lambda_l2=0.4706053297801944, learning_rate=0.04585353445682156, n_estimators=1674, stopping_rounds=100; accuracy: (train=0.945, test=0.872) memory: (train=481738.000, test=481738.000) memory_efficiency: (train=0.000, test=0.000) total time= 1.7min
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[6]	valid_0's binary_logloss: 0.341417
+[CV 1/2] END lambda_l1=0.6298013523964685, lambda_l2=0.6200864628675801, learning_rate=0.5229218501628209, n_estimators=4659, stopping_rounds=10; accuracy: (train=0.917, test=0.858) memory: (train=38874.000, test=38874.000) memory_efficiency: (train=0.000, test=0.000) total time=  22.4s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[8]	valid_0's binary_logloss: 0.329545
+[CV 2/2] END lambda_l1=0.6298013523964685, lambda_l2=0.6200864628675801, learning_rate=0.5229218501628209, n_estimators=4659, stopping_rounds=10; accuracy: (train=0.930, test=0.865) memory: (train=40538.000, test=40538.000) memory_efficiency: (train=0.000, test=0.000) total time=  23.0s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[5]	valid_0's binary_logloss: 0.350244
+[CV 1/2] END lambda_l1=0.5079382597763538, lambda_l2=0.5324256247471147, learning_rate=0.7345249169909092, n_estimators=5627, stopping_rounds=10; accuracy: (train=0.921, test=0.857) memory: (train=30842.000, test=30842.000) memory_efficiency: (train=0.000, test=0.000) total time=  21.8s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[4]	valid_0's binary_logloss: 0.363029
+[CV 2/2] END lambda_l1=0.5079382597763538, lambda_l2=0.5324256247471147, learning_rate=0.7345249169909092, n_estimators=5627, stopping_rounds=10; accuracy: (train=0.914, test=0.854) memory: (train=27904.000, test=27904.000) memory_efficiency: (train=0.000, test=0.000) total time=  21.4s
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[6]	valid_0's binary_logloss: 0.351758
